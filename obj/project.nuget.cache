@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ISD6LgJ5aJ8=",
+  "dgSpecHash": "AT9iOA06kYk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\CSUG\\Ephrem\\TmsApi\\TmsApi.csproj",
+  "projectFilePath": "C:\\Users\\CSUG\\ephrem\\TmsApi\\TmsApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CSUG\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\10.0.8\\microsoft.aspnetcore.authentication.jwtbearer.10.0.8.nupkg.sha512",
     "C:\\Users\\CSUG\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.0.1\\microsoft.identitymodel.abstractions.8.0.1.nupkg.sha512",
