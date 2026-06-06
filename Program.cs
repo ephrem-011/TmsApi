@@ -29,4 +29,14 @@ courseCode = "CS-101", studentId = "S-001",
 letterGrade = "A"
 })).RequireAuthorization();
 
+
+builder.Services.AddSingleton<EnrollmentWorker>();
+builder.Services.AddScoped<IEnrollmentService, EnrollmentService>();
+
+builder.Host.UseDefaultServiceProvider(options =>
+{
+options.ValidateScopes = true;
+options.ValidateOnBuild = true;
+});
+
 app.Run();
